@@ -92,9 +92,6 @@ body {
     cursor: pointer;
 }
 
-
-
-
 .card-header {
     margin-bottom: 20px;
 }
@@ -146,4 +143,12 @@ align-items: center;
 }
 .card-footer span:first-child {
     color: var(--content-color);
+}
+
+/* Media queries */
+@media screen and (max-width: 375px) {
+    .card-box{
+        width: 327px;
+        height: 543px;
+    }
 }
